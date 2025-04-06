@@ -3,43 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
     <title>Cafeteria San Francisco</title>
-    <style>
-        body {
-            background-color: #d3ebe6;
-        }
-        .cabecera-derecha{
-            width: 80%;
-            background-color: blueviolet;
-        }
-        .cabecera-izquierda{
-            width: 20%;
-            background-color: brown;
-            margin-top: -20px;
-            margin-left: 1200px;
-        }
-
-        a{
-            color: white;
-        }
-
-        .menu{
-            color: chartreuse;
-        }
-
-        #btn-acerca-de{
-            background-color: black;
-            /*el padding me da margenes internosen cada elemento*/
-            padding: 10px 30px 50px 50px;
-            /*el margin me da margenes externos en cada elemento*/
-            margin: 10px;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-
-            
-        }
-
-
-    </style>
 </head>
 <body>
     <!--Los nombres de los proyectos no pueden tener espacios, por eso se usa el guión bajo(_)
@@ -51,7 +16,8 @@
     <!--Inicio del header-->
     <header>
         <!--Menu de navegación-->
-     <div class="cabecera-derecha">
+     <div>
+        <h1>Cafeteria</h1>
         <nav>
             <a href="#" id="btn-acerca-de">Acerca de</a>
             <a href="#" id="btn-meu">Menú</a>
@@ -59,15 +25,57 @@
             <a class="menu" href="#" id="ubicacion">Ubicación</a>
 
         </nav>
+        <div>
+            <h1>cafe <span>San Francisco</span></h1>
+            <h3>Un refugio del tiempo, donde el corazón se abriga entre café y reuerdos</h3>
+        </div>
 
      </div>
      <div class="cabecera-izquierda">
-        <a href="">hola</a>
+        
 
 
      </div>
        
 
-    </header>
+    </header> <!--Fin del header-->
+    <!--Inicio del la sección main-->
+    <section>
+        <!--Inicio Acerca de -->
+        <section id="acerca-de">
+            <div>
+                <div>
+                    <img src="img/10.jpg.jpg" alt="Acerca de lobby">
+                </div>
+                <article>
+                    <h3>Acerca de</h3>
+                    <p><strong>La Cafetería La Tertulia:</strong> nació en 1958 en Madrid,<br>
+                        España, fundada por la emprendedora Carmen Ruiz <br>
+                        en una pequeña esquina del barrio de Malasaña. <br>
+                        En sus inicios, fue un modesto local que servía café <br>
+                         de puchero y churros, pero pronto se convirtió <br>
+                        en un refugio para intelectuales y artistas <br>
+                         durante el franquismo, donde se discutía literatura <br>
+                         y política a escondidas. Con los años, su fama creció <br>
+                         gracias a sus pasteles caseros y su ambiente acogedor, <br>
+                        resistiendo incluso los cambios urbanísticos de los años <br>
+                        70 que transformaron el barrio.</p> <br>
+                        <br>
+                    <p>En la década de 1990, el nieto de Carmen, Javier Morales, <br>
+                         renovó el local respetando su esencia bohemia: mantuvo <br>
+                         las mesas de mármol originales, los espejos antiguos y <br>
+                         el piano que animaba las veladas.Hoy, <br>
+                         <strong> La Tertulia</strong> <br>
+                          es una mezcla de tradición y modernidad, con eventos de  <br>
+                          poesía, jazz en vivo y una carta que incluye desde <br>
+                          café de especialidad hasta tapas innovadoras. Sigue <br>
+                          siendo un símbolo de resistencia cultural, donde nuevas <br>
+                           generaciones descubren la magia de las conversaciones sin prisa.</p>  <br>
+
+                </article>
+            </div>
+
+        </section>
+    </section>
 </body>
 </html>
