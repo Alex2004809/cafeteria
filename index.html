@@ -19,7 +19,7 @@
             margin-left: 1200px;
         }
 
-        a {
+        a{
             color: white;
         }
 
@@ -27,17 +27,34 @@
             color: chartreuse;
         }
 
+        #btn-acerca-de{
+            background-color: black;
+            /*el padding me da margenes internosen cada elemento*/
+            padding: 10px 30px 50px 50px;
+            /*el margin me da margenes externos en cada elemento*/
+            margin: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+            
+        }
+
 
     </style>
 </head>
-<body  style="background-color: #d3ebe6;">
+<body>
+    <!--Los nombres de los proyectos no pueden tener espacios, por eso se usa el guión bajo(_)
+    o el guion (-) para separar las palabtras. En este caso se usó el guión bajo (_).
+    Tampoco puede utilizar o empezar con sombolosespeciales o numeros.
+    No se puede tener un nombre de proyecto muy largo, por eso se recomienda usar  nombres cortos.-->
+
+
     <!--Inicio del header-->
     <header>
         <!--Menu de navegación-->
      <div class="cabecera-derecha">
         <nav>
-            <a class="menu" href="#" id="btn acerca de">Acerca de</a>
-            <a href="#" id="menu">Menú</a>
+            <a href="#" id="btn-acerca-de">Acerca de</a>
+            <a href="#" id="btn-meu">Menú</a>
             <a href="#" id="galeria">Galeria</a>
             <a class="menu" href="#" id="ubicacion">Ubicación</a>
 
