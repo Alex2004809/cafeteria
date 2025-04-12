@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos/estilos.css">
     <title>Cafeteria San Francisco</title>
+
 </head>
 <body>
     <!--Los nombres de los proyectos no pueden tener espacios, por eso se usa el guión bajo(_)
@@ -16,66 +20,147 @@
     <!--Inicio del header-->
     <header>
         <!--Menu de navegación-->
-     <div>
-        <h1>Cafeteria</h1>
-        <nav>
+     <div class="contenedor">
+       
+        <nav class="menu">
             <a href="#" id="btn-acerca-de">Acerca de</a>
             <a href="#" id="btn-meu">Menú</a>
             <a href="#" id="galeria">Galeria</a>
             <a class="menu" href="#" id="ubicacion">Ubicación</a>
 
         </nav>
-        <div>
-            <h1>cafe <span>San Francisco</span></h1>
+        <div class="texto">
+            <h1 class="nombre">Cafeteria <span>San Francisco</span></h1>
             <h3>Un refugio del tiempo, donde el corazón se abriga entre café y reuerdos</h3>
         </div>
-
      </div>
-     <div class="cabecera-izquierda">
-        
-
-
-     </div>
-       
-
     </header> <!--Fin del header-->
     <!--Inicio del la sección main-->
     <section>
         <!--Inicio Acerca de -->
-        <section id="acerca-de">
-            <div>
-                <div>
+        <section class="acerca-de" id="acerca-de">
+            <div class="contenedor">
+                <div class="fotografia">
                     <img src="img/10.jpg.jpg" alt="Acerca de lobby">
                 </div>
                 <article>
                     <h3>Acerca de</h3>
-                    <p><strong>La Cafetería La Tertulia:</strong> nació en 1958 en Madrid,<br>
-                        España, fundada por la emprendedora Carmen Ruiz <br>
-                        en una pequeña esquina del barrio de Malasaña. <br>
-                        En sus inicios, fue un modesto local que servía café <br>
-                         de puchero y churros, pero pronto se convirtió <br>
-                        en un refugio para intelectuales y artistas <br>
-                         durante el franquismo, donde se discutía literatura <br>
-                         y política a escondidas. Con los años, su fama creció <br>
-                         gracias a sus pasteles caseros y su ambiente acogedor, <br>
-                        resistiendo incluso los cambios urbanísticos de los años <br>
-                        70 que transformaron el barrio.</p> <br>
-                        <br>
-                    <p>En la década de 1990, el nieto de Carmen, Javier Morales, <br>
-                         renovó el local respetando su esencia bohemia: mantuvo <br>
-                         las mesas de mármol originales, los espejos antiguos y <br>
-                         el piano que animaba las veladas.Hoy, <br>
-                         <strong> La Tertulia</strong> <br>
-                          es una mezcla de tradición y modernidad, con eventos de  <br>
-                          poesía, jazz en vivo y una carta que incluye desde <br>
-                          café de especialidad hasta tapas innovadoras. Sigue <br>
-                          siendo un símbolo de resistencia cultural, donde nuevas <br>
-                           generaciones descubren la magia de las conversaciones sin prisa.</p>  <br>
+                    <p>
+                        <strong>La Cafetería La Tertulia:</strong> nació en 1958 en Madrid,
+                        España, fundada por la emprendedora Carmen Ruiz 
+                        en una pequeña esquina del barrio de Malasaña. 
+                        En sus inicios, fue un modesto local que servía café 
+                         de puchero y churros, pero pronto se convirtió 
+                        en un refugio para intelectuales y artistas 
+                         durante el franquismo, donde se discutía literatura 
+                         y política a escondidas. Con los años, su fama creció 
+                         gracias a sus pasteles caseros y su ambiente acogedor, 
+                        resistiendo incluso los cambios urbanísticos de los años 
+                        70 que transformaron el barrio.
+                    </p>    
+                    <p>
+                        En la década de 1990, el nieto de Carmen, Javier Morales, 
+                         renovó el local respetando su esencia bohemia: mantuvo 
+                         las mesas de mármol originales, los espejos antiguos y 
+                         el piano que animaba las veladas.Hoy, 
+                         <strong> La Tertulia</strong> 
+                          es una mezcla de tradición y modernidad, con eventos de  
+                          poesía, jazz en vivo y una carta que incluye desde 
+                          café de especialidad hasta tapas innovadoras. Sigue 
+                          siendo un símbolo de resistencia cultural, donde nuevas 
+                           generaciones descubren la magia de las conversaciones sinprisa.
+                        </p> 
 
                 </article>
             </div>
+            </section> <!--Fin Acerca de -->
+            <!--Inicio de la section menú-->
+            <section class="menu">
+                <div class="contenedor">
+                    <h3 class="titulo" id="platillos">Menú</h3>
+                    <div class="contenedor-menu2">
+                        <article>
+                            <p class="categoria">De comer</p>
+                            <div class="platillo">
+                                <p class="nombre">Arroz con camarón</p>
+                                <p class="precio">$8.50</p>
+                                <p class="descripcion">El arroz con camarón viene arroz, camarón, yuca, platano</p>
+                            </div>
+                            <div class="platillo">
+                               <p class="nombre">Pollo hornado</p>
+                               <p class="precio">$10.50</p>
+                               <p class="descripcion">El pollo hornado viene con papas fritas, ensalada, y mayonesa con salsa detomate</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Seco de pollo</p>
+                                <p class="precio">$6.50</p>
+                                <p class="descripcion">El seco de pollo viene con sopa, arroz, y patacones</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Chuleta</p>
+                                <p class="precio">$8.00</p>
+                                <p class="descripcion">L chuleta viene con arroz, platano, yuca, ensalada y menestra</p>
+
+                            </div>
+
+                        </article> <!--Fin de la sección de comida-->
+                        <!--Inicio de seccioón bebidas-->
+                        <article>
+                            <p class="categoria">Bebidas</p>
+                            <div class="platillo">
+                                <p class="monbre">Café</p>
+                                <p class="precio">$1.50</p>
+                                <p class="descripcion">Cfé amaricano</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">capuchino</p>
+                                <p class="precio">$4.50</p>
+                                <p class="descripcion">Capuchino</p>
+                            </div>
+                            <div class="platillo">
+                            <p class="nombre">Café con leche</p>
+                            <p class="precio">$3.00</p>
+                            <p class="descripcion">Café con leche</p>
+                            </div>
+                            <div class="platillo">
+                                <p class="nombre">Café Natural</p>
+                                <p class="precio">$2.40</p>
+                                <p class="descripcion">Café natural</p>
+                            </div> 
+                        </article> <!--Fin de la sección bebidas-->
+                    </div>
+                </div>
+            </section> <!--Fin de la sección menú-->
+            <!--Inicio de la sección galeria-->
+            <section class="galeria" id="galeria">
+                <div class="foto">
+                    <img src="img/1.jpg.jpg" alt="el cafe">
+                </div>
+                <div class="foto">
+                    <img src="img/2.jpg.jpg" alt="cafe">
+                </div>
+                <div class="foto">
+                    <img src="img/3.jpg.jpg" alt="cafe">
+                </div>
+                <div class="foto">
+                    <img src="img/4.jpg.jpg" alt="cafe">
+                </div>
+                <div class="foto">
+                    <img src="img/5.jpg.jpg" alt="cafe">
+                </div>
+                <div class="foto">
+                    <img src="img/6.jpg.jpg" alt="cafe">
+                </div>
+                <div class="foto">
+                    <img src="img/7.jpg.jpg" alt="cafe">
+                </div>
+                <div class="foto">
+                    <img src="img/8.jpg.jpg" alt="cafe">
+                </div>
+
+            </section> <!--Fin de la sección Galeria-->
 
         </section>
-    </section>
+
 </body>
 </html>
