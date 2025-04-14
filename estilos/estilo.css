@@ -1,0 +1,463 @@
+/*Aqui va a ir los estilos css para el index.html*/
+*{
+    /*Elimina el margen por defecto de todos los elementos de html*/
+    margin: 0;
+    /*Elimia el padding por defecto de todos los elementos de html*/
+    padding: 0;
+    /*Definos el modelo de caja para navegadores basados en webtkig
+     gooleChrome, Internet exploret, edge*/
+     -webkit-box-sizing:border-box;
+     /*Definimos el modelo de cajas para navegadores basaos en mozilla,
+      firefox, opera.*/
+      -moz-box-sizing:border-box;
+      /*Definimos el modelo de cajass para navegadores basados en estandar*/
+      box-sizing:border-box;
+}
+/*Definimos los estilos para el body*/
+body{
+    font-family:"Open Sans", Arial, sans-serif ;
+    font-size: 16px;
+}
+/*Trabajamos en los estilos en la clase del contenedor*/
+.contenedor{
+    /*vamos a definir el ancho delcontenedor*/
+    width: 90%;
+    /*Definimos el color del fondo del contenedor*
+    background-color: aqua;/
+    /*Definimos la anchura maxima de del contenedor*/
+    max-width: 1000px;
+/*Definimos el margen en automatico para centrar el contenedor*/
+margin: auto;
+/*Ocultamos el desbordamiento del contenedor*/
+overflow: hidden;
+}
+
+/*Le damos estilos al header*/
+header{
+    /*Definimos el tamaño del header a un 100%*/
+    width: 100%;
+    /*Definimos la imagen del fondo*/
+    background: url(../img/9.jpg.jpg);
+    /*Definimos el color de fondo del header*/
+    background-size: cover;
+    background-attachment: fixed;
+    /*Definimos que la imagen tenga una posicion centrada*/
+    background-position: 0;
+}
+
+/*Le damos estilos al header y que busque una clase que se llame contenedor*/
+header .contenedor{
+    /*Definimos que el header tenga una posicion relativa*/
+    position: reativa;
+    height: 1500px;
+}
+
+/*Le damos estilos al menu dentro del header*/
+header .menu{
+    /*Le damos el tamaño de la anchura*/
+    width: 100;
+    /*Le decimos que alinee el texto a la derecha*/
+    text-align: right;
+}
+/*Le damos estilos a las etiquetas del menú*/
+header .menu a{
+    /*Le voy a dar color a las etiquetas a*/
+    color: #fff;
+    /*Le voy a dar un tamaño de letra a las etiquetas a*/
+    font-size: 20px;
+    font-weight: 300;
+    /*Le voy a dar un margen a las etiquetas a*/
+    /*Display inline-bloc*/
+    display: inline-block;
+    margin: 40px 20px;
+/*  Quito el margen de menú*/
+    text-decoration: none;
+    position: relative;
+}
+
+/*Utilizamos la seudoclase hover*/
+header .menu a:hover{
+    text-decoration: underline;
+}
+/*Aqui byscamos y trabajamos en la seccion texto*/
+
+header .texto{
+    width: 100%;
+    /*Agreamos el color del texto*/
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+}
+
+/*Trabajamos en la parte de nombre de cafeteria*/
+header .texto .nombre{
+    /*Agregamos un 50px para quetenga un tamaño de 50px a la cafetería*/
+    font-size: 50px;
+    font-weight: 600;
+}
+
+/*Trabajamos en la etiqueta span*/
+header .texto .nombre span{
+    font-weight: 300;
+}
+/*Trabajamos en la etiqueta h3 de la descripcion de la cafetería*/
+header .texto h3{
+    /*Aqui le damos un font-weight para que la letra sea un poco más delgadita*/
+    font-weight: 300;
+    font-size: 25px;
+    /*Agregamos que nuestro fondo de letra sea italica que se vea de forma cursiva*/
+    font-style: italic;
+}
+/*------MAIN------*/
+.main{
+    /*Agregamos el fondo de la imagen del fondo blanco*/
+    background: url('../img/11.jpg.jpg');
+    background-repeat: repeat;
+}
+
+/*seccion acerca-de*/
+.main .acerca-de .contenedor{
+    overflow: visible;
+    position: relative;
+}
+
+.main .acerca-de .foto{
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    z-index: 0;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+}
+
+.main .acerca-de .foto img{
+    vertical-align: top;
+    width: 100%;
+  
+  }
+  
+  .main .acerca-de article{
+    /*Le agregamos color en mi caso blanco a la etiqueta Acerca de*/
+    background: #f5f3f3;
+    /*Le damos un margen en la parte interior acerca de*/
+    padding: 40px;
+    /*Le damos una anchura del 75% al acerca de*/
+    width: 50%;
+    /*Le damos una posicion relativa para que se sobre posisione a la imagen del acerca de */
+    position: relative;
+    top: 100px;
+    z-index: 1px;
+    /*Aqui flotamos el contenedor a la derecha*/
+    float: right;
+    /*Aqui le damos margen a la etiqueta acerca-de*/
+    box-shadow: 0px opx 15px rgba(196, 20, 20, 0.5);
+  
+  }
+  /*Buscamos las siguientes etiquetas*/
+  .main .acerca-de article h3{
+    /*Cambiamos la forma oh mejoramos la forma Acerca de*/
+    font-size: 50px;
+    /*Le damos anchura*/
+    font-weight: 300;
+    /*Le damos en la parte de avajo un margen deñ acerca de*/
+    margin-bottom: 40px;
+  
+  }
+  /*Buscamos las siguientes etiquetas que es la p*/
+  .main .acerca-de article p{
+    /*Cambiamos la altura de los párrafos y le hacemos mas grandes */
+    line-height: 16px;
+    /*Le damos un interlineado a los párrafos*/
+    margin-bottom: 15px;
+  
+  }
+  
+  /*sección productos*/
+  .main .menu{
+    /*Le vamos dando forma en la sección productos*/
+    padding-top: 650px;
+    /*Le damos un poco de separación y que no este pegado*/
+    margin-bottom: 50px;
+  
+  }
+  /*Trabajamos en la clase título*/
+  .main .menu .titulo{
+    /*Le damos forma a la sección productos*/
+    font-size: 40px;
+    /*Le damos una mejor forma para que se vea mucho más mejor la sección productos*/
+    font-weight: 300;
+    /*Alineamos el texto al centro y ponemos a productos al centro*/
+    text-align: center;
+    /*Hacemos un poco de separaión con la sección productos*/
+    margin-bottom: 40px;
+  
+  }
+  /*Entramos a un contenedor menú y poodemos darle diferentes estilos
+   a dos contenedores que se encuentran en distintas partes*/
+  .main .menu .contenedor-menu,
+  .main .menu .contenedor-menu2{
+  /*Le damos borde como cuadrado*/
+    border: 2px solid #000;
+    background: transparent;
+    /*Le damos a los cuatro lados cualquier px que eescogamos*/
+    padding: 10px;
+    /*Contenido que si se quiere sobresalir quiero que se oculte*/
+    overflow: hidden;
+    box-shadow: 15px 0px 15px  0  rgba(0, 0, 0, 0);
+  
+  }
+
+  /*Trabajamos en productos y la etiqueta article*/
+  .main .menu article{
+    /*Le damos una anchura del 50%*/
+    width: 48%;
+    /*Le mandamos al contenedor article que se valla a la izquierda*/
+    float: left;
+    /*Aqui le damos px para despaciado interno*/
+    padding: 20px;
+  
+  }
+
+  /*Le damos caracteristicas a Nuestros Productos y Procesados Artesanales le damos estilos*/  
+  .main .menu .categoria{
+    font-size: 32px;
+    font-weight: 700px;
+    text-align: center;
+  
+  }
+  
+  .main .menu .platillo{
+    /*Le separamos*/
+    margin-bottom: 30px;
+    /*Le damos mas espacio*/
+    padding-bottom: 20px;
+    /*Le damos formas con puntitos en una linea recta*/
+    border-bottom: 5px dotted #332a2a;
+    /*Ocultamos  todo el contenido que se sobre salga de la aplicación*/
+    overflow: hidden;
+  }
+  
+  .main .menu .nombre{
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.main .menu .precio{
+  font-size: 20px;
+  margin-bottom: 15px;
+  float: right;
+}
+
+.main .menu .descripcion{
+  font-size: 16px;
+  color: #676767;
+  clear: both;
+
+}
+
+/*Estilos a la seccion galeria*/
+
+.main .galeria{
+    overflow: hidden;
+}
+
+.main .galeria .foto{
+  width: 25%;
+  float: left;
+}
+
+.main .galeria .foto img{
+  width: 100%;
+  vertical-align: top;
+  opacity: 0.7;
+
+}
+
+.main .galeria .foto img:hover{
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 3.5s ease;
+  transition: all 0.3s ease;
+}
+
+/*--Ubicación---*/
+
+.main .ubicacion{
+    background: #ffffff; /* Fondo blanco para la sección */
+    padding: 60px; /* Espaciado interno de 60px */
+     /*En este over flow le damos para no desbordar al contenedor*/
+    overflow: hidden;
+}
+
+.main .ubicacion .titulo{
+    text-align: center; /* Centra el texto */
+    font-size: 40px;  /* Tamaño de fuente grande */
+    line-height: 40px;  /* Altura de línea igual al tamaño de fuente */
+    font-weight: 300;  /* Grosor de fuente ligero */
+    margin-bottom: 40px;  /* Espacio inferior para separar del contenido */
+}
+/* Contenedor de la dirección (izquierda) */
+.main .ubicacion .direccion{
+    float: left; /* Alinea a la izquierda */
+    width: 50%;   /* Ocupa la mitad del ancho */
+    text-align: left;  /* Alineación de texto a la izquierda */
+}
+
+.main .ubicacion .horarios{
+  float: right;
+  width: 50%;
+  text-align: right;
+  overflow: hidden;
+}
+
+.main .ubicacion .direccion .calle{
+  margin-bottom: 15px;
+}
+
+/* Título Horarios */
+.main .ubicacion .horarios h4{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Bloques de horarios (entre semana y fin de semana) */
+.main .ubicacion .horarios .entre-semana,
+.main .ubicacion .horarios .fin-semana{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.main .mapa{
+  width: 50%;
+  overflow: hidden;
+  
+}
+
+.main .mapa iframe{
+  width: 100%;
+  max-height: 600px;
+}
+
+/*---Pie de página---*/
+footer{
+  /*Le damos un fondo*/
+  background: #000;
+}
+
+.contenedor .copyright{
+  text-align: center;
+  padding: 8px;
+  color: #fff;
+  font-weight: 900;
+}
+
+/*----Consulta de medios----*/
+
+/*Aqui definiremos el ancho máximo para ya sea
+   dispositivos diferentes*/
+   /*Media Queries*/
+@media screen and (max-width: 800px){ 
+    header .contenedor{
+        position: static;  
+        height: auto;
+      }
+
+    header .texto{
+        position: static;
+        margin: 100px 0;
+    }
+
+    header .menu{
+        text-align: center;;
+    }
+    header .menu a{
+      /*Aplico estilos de máximo seria de 800px seria para un estilo normal que aplicaria*/
+        margin: 10px 20px;  
+    }
+
+    header .texto .nombre{
+        font-size: 30px;
+    }
+
+    header .texto h3{
+      font-size: 18px;
+  }
+
+  .main .acerca-de .foto{
+      width: 100%;
+      position: relative;
+  }
+  .main .acerca-de article{
+      position: relative;
+      width: 100%;
+      top: -50px;
+      /*Lo utilizo para posisionar oh ajustar los elementos sin
+       moverlos X y Y seria un valor de 0px en este caso para que aiga desplazamientos*/
+      transform: translate(0px, 0); 
+  }
+
+  .main .menu{
+    padding-top: 300px;
+}
+
+.main .menu article{
+    width: 100%;
+}
+
+.main .galeria .foto{
+    width: 50%;
+}
+
+.main .mapa{
+    width: 80%;
+    margin: auto;
+}
+}
+/*En este apartado aplico lo que serian distintos estilos para dispositivos*/
+@media screen and (max-width: 400px){ 
+   
+  .main .acerca-de article h3{
+      font-size: 34px;  
+      margin-bottom: 10px;
+  }
+
+  .main .menu article .nombre,
+  .main .menu article .precio{
+      font-size: 16px;
+      line-height: 16px;
+  }
+
+  .main .galeria .foto{
+      width: 100%;
+  }
+
+  .main .ubicacion .direccion{
+      margin-bottom: 15px;
+  }
+  .main .ubicacion .direccion,
+  .main .ubicacion .horarios{
+      width: 100%;
+      float: none;
+      text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+      
+    
+  
+
+
