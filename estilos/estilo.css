@@ -62,7 +62,7 @@ header .menu{
 /*Le damos estilos a las etiquetas del menú*/
 header .menu a{
     /*Le voy a dar color a las etiquetas a*/
-    color: #941212;
+    color: #fcfcfc;
     /*Le voy a dar un tamaño de letra a las etiquetas a*/
     font-size: 20px;
     font-weight: 300;
