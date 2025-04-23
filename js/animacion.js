@@ -49,7 +49,7 @@ $(document).ready(function () {
  
          })
          //repetir para cada uno de los botones
-
+         //Menú
          var menu=$('#acerca-de').offset().top,
              menu=$('#platillos').offset().top,
              galeria=$('#galeria').offset().top,
@@ -62,8 +62,8 @@ $(document).ready(function () {
  
          })
 
-
-         var menu=$('#acerca-de').offset().top,
+         // galeria
+         var galeria=$('#acerca-de').offset().top,
              menu=$('#platillos').offset().top,
              galeria=$('#galeria').offset().top,
              ubicacion=$('#ubicacion').offset().top;
@@ -74,6 +74,12 @@ $(document).ready(function () {
              }, 500)//El tiempo que e demora en el desplzamiento
  
          })
+
+
+
+
+
+
 
 
 
